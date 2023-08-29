@@ -1,4 +1,4 @@
-package org.launchcode;
+package org.restaurant;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -16,8 +16,7 @@ public class Menu {
         this.lastUpdated = lastUpdated;
     }
 
-    public void setItems(ArrayList<MenuItem> items) {
-        this.items = items;
+    public void setItems(ArrayList<MenuItem> items) { this.items = items;
     }
 
     public Date getLastUpdated() {
